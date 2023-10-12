@@ -1,7 +1,7 @@
 /**
  * The MIT License
  *
- * Copyright (C) 2022 Asterios Raptis
+ * Copyright (C) 2021 Asterios Raptis
  *
  * Permission is hereby granted, free of charge, to any person obtaining
  * a copy of this software and associated documentation files (the
@@ -22,8 +22,35 @@
  * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package io.github.astrapi69;
+package io.github.astrapi69.jaxb.menu.model;
 
-public class InitialTemplate
+/**
+ * The enum class {@link Anchor} provides the relative position of a source menu component to
+ * another target menu component
+ */
+public enum Anchor
 {
+	/**
+	 * If a source menu component have the position value <code>Anchor#BEFORE</code> it will be
+	 * placed before the anchor target menu component
+	 */
+	BEFORE,
+
+	/**
+	 * If a source menu component have the position value <code>Anchor#AFTER</code> it will be
+	 * placed after the anchor target menu component
+	 */
+	AFTER,
+
+	/**
+	 * If a source menu component have the position value <code>Anchor#FIRST</code> it will be
+	 * placed as the first menu component
+	 */
+	FIRST,
+
+	/**
+	 * If a source menu component have the position value <code>Anchor#LAST</code> it will be placed
+	 * as the last menu component
+	 */
+	LAST
 }
