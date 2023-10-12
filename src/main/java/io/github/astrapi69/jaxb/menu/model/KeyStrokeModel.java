@@ -1,7 +1,7 @@
 /**
  * The MIT License
  *
- * Copyright (C) 2021 Asterios Raptis
+ * Copyright (C) 2022 Asterios Raptis
  *
  * Permission is hereby granted, free of charge, to any person obtaining
  * a copy of this software and associated documentation files (the
@@ -24,8 +24,6 @@
  */
 package io.github.astrapi69.jaxb.menu.model;
 
-import javax.swing.KeyStroke;
-
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlRootElement;
@@ -41,7 +39,7 @@ import lombok.experimental.SuperBuilder;
 
 /**
  * The class {@link KeyStrokeModel} is intended for store the information of a keystroke and restore
- * it back to a {@link KeyStroke} object
+ * it back to a {@link javax.swing.KeyStroke} object
  */
 @Getter
 @Setter
